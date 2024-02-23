@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 I'm presenting my current work on hierarchical out-of-distribution detection
-at this year's NeurIPS ML Safety Workshop in St. Louis!
+at this year's NeurIPS ML Safety Workshop in New Orleans!
