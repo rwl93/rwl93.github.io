@@ -4,9 +4,9 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Randy
-middle_name:
+middle_name: ""
 last_name: Linderman
-email: randolph.linderman@duke.edu
+email: "randolph{dot}linderman{at}duke{dot}edu"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD Candidate (4th year) in the CEI Lab at Duke University
 footer_text: >

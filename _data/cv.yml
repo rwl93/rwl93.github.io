@@ -12,7 +12,8 @@
       year: 2020--
       description:
         - "Advisor: Yiran Chen, Ph.D."
-        - "Thesis: Exploiting interclass relationships for improved deep neural network generalization in open-world environments"
+        - "Thesis: Exploiting interclass relationships for improved deep neural
+          network generalization in open-world environments"
         - title: Courses
           contents:
             - Deep learning approaches in machine learning
@@ -25,7 +26,8 @@
       year: 2017
       description:
         - "Advisor: Jonathan Butcher, Ph.D."
-        - "Thesis: Computational fluid dynamics analysis of the hemodynamic environment in the developing cardiac outflow tract"
+        - "Thesis: Computational fluid dynamics analysis of the hemodynamic
+          environment in the developing cardiac outflow tract"
         - title: Courses
           contents:
             - Computer analysis of biomedical imaging
@@ -42,12 +44,14 @@
   type: time_table
   contents:
     - title: Associate Computer Engineer, DR-01
-      institution: Air Force Research Laboratory, Information Directorate, Rome, NY
+      institution: Air Force Research Laboratory, Information Directorate,
+        Rome, NY
       year: 2018 - 2020
       description:
         - "Advisors: Qing Wu, Ph.D. and Morgan Bishop"
     - title: Graduate and Undergraduate Researcher
-      institution: Cardiovascular Developmental Bioengineering Lab, Cornell University
+      institution: Cardiovascular Developmental Bioengineering Lab, Cornell
+        University
       year: 2014 - 2017
       description:
         - "Advisor: Jonathan Butcher, Ph.D."
@@ -61,17 +65,20 @@
           Mimics, 3-matic, and Geomagic software packages. Presented findings
           at laboratory meetings every semester."
     - title: Summer Internship
-      institution: Air Force Research Laboratory, Information Directorate, Rome, NY
+      institution: Air Force Research Laboratory, Information Directorate,
+        Rome, NY
       year: 2016
       description:
         - "Advisors: Qing Wu, Ph.D."
     - title: Summer Internship
-      institution: Air Force Research Laboratory, Information Directorate, Rome, NY
+      institution: Air Force Research Laboratory, Information Directorate,
+        Rome, NY
       year: 2014
       description:
         - "Advisors: Qing Wu, Ph.D. and Morgan Bishop"
     - title: Summer Internship
-      institution: Air Force Research Laboratory, Information Directorate, Rome, NY
+      institution: Air Force Research Laboratory, Information Directorate,
+        Rome, NY
       year: 2013
       description:
         - "Advisors: Qing Wu, Ph.D. and Morgan Bishop"
@@ -81,7 +88,8 @@
   contents:
     - year: 2022
       items:
-        - Honorable mention for impact and relevance to DoD research objectives at the NDSEG National Fellows Conference
+        - Honorable mention for impact and relevance to DoD research objectives
+          at the NDSEG National Fellows Conference
     - year: 2020
       items:
         - National Defense Science and Engineering Graduate (NDSEG) Fellowship
@@ -124,11 +132,13 @@
       description:
         - "Professors: Peter Doerschuk, Ph.D. & Shivaun Archer, Ph.D."
         - Prepared, organized, and supervised 3-hour laboratory exercises
-        - Hosted office hours to aid in the students' understanding of the laboratory
+        - Hosted office hours to aid in the students' understanding of the
+          laboratory
     - year: "Sp & Fall 2013"
       title: "Computer Programming -- MATLAB"
       institution: Cornell University, Ithaca, NY
       description:
         - "Professor: C. Lindsay Anderson, Ph.D."
         - Prepared, organized, and supervised 3-hour laboratory exercises
-        -  Hosted office hours to aid in the students' understanding of the laboratory
+        -  Hosted office hours to aid in the students' understanding of the
+          laboratory
