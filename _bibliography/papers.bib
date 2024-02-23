@@ -1,85 +1,103 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{collas = {Conference on Lifelong Learning Agents,}}
+@string{neurips = {Conference on Neural Information Processing Systems,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@InProceedings{pmlr-v232-linderman23a,
+  title = 	 {Fine-grain Inference on Out-of-Distribution Data with Hierarchical Classification},
+  author =       {Linderman, Randolph and Zhang, Jingyang and Inkawhich, Nathan and Li, Hai and Chen, Yiran},
+  booktitle = 	 {Proceedings of The 2nd Conference on Lifelong Learning Agents},
+  pages = 	 {162--183},
+  year = 	 {2023},
+  editor = 	 {Chandar, Sarath and Pascanu, Razvan and Sedghi, Hanie and Precup, Doina},
+  volume = 	 {232},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {22--25 {A}ug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v232/linderman23a/linderman23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v232/linderman23a.html},
+  abstract = 	 {Machine learning methods must be trusted to make appropriate
+                decisions in real-world environments, even when faced with
+                out-of-distribution (OOD) samples. Many current approaches
+                simply aim to detect OOD examples and alert the user when an
+                unrecognized input is given. However, when the OOD sample
+                significantly overlaps with the training data, a binary anomaly
+                detection is not interpretable or explainable, and provides
+                little information to the user. We propose a new model for OOD
+                detection that makes predictions at varying levels of
+                granularity—as the inputs become more ambiguous, the model
+                predictions become coarser and more conservative. Consider an
+                animal classifier that encounters an unknown bird species and a
+                car. Both cases are OOD, but the user gains more information if
+                the classifier recognizes that its uncertainty over the
+                particular species is too large and predicts “bird” instead of
+                detecting it as OOD. Furthermore, we diagnose the classifier’s
+                performance at each level of the hierarchy improving the
+                explainability and interpretability of the model’s predictions.
+                We demonstrate the effectiveness of hierarchical classifiers
+                for both fine- and coarse-grained OOD tasks.},
+  selected = {true},
+  preview={CoLLAs-2023-thumbnail.png}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@InProceedings{Zhang_2023_WACV,
+    author    = {Zhang, Jingyang and Inkawhich, Nathan and Linderman, Randolph and Chen, Yiran and Li, Hai},
+    title     = {Mixture Outlier Exposure: Towards Out-of-Distribution Detection in Fine-Grained Environments},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {5531-5540},
+    abstract = {
+Many real-world scenarios in which DNN-based recognition systems are deployed
+have inherently fine-grained attributes (e.g., bird-species recognition,
+medical image classification). In addition to achieving reliable accuracy, a
+critical subtask for these models is to detect Out-of-distribution (OOD)
+inputs. Given the nature of the deployment environment, one may expect such OOD
+inputs to also be fine-grained w.r.t. the known classes (e.g., a novel bird
+species), which are thus extremely difficult to identify. Unfortunately, OOD
+detection in fine-grained scenarios remains largely underexplored. In this
+work, we aim to fill this gap by first carefully constructing four large-scale
+fine-grained test environments, in which existing methods are shown to have
+difficulties. Particularly, we find that even explicitly incorporating a
+diverse set of auxiliary outlier data during training does not provide
+sufficient coverage over the broad region where fine-grained OOD samples
+locate. We then propose Mixture Outlier Exposure (MixOE), which mixes ID data
+and training outliers to expand the coverage of different OOD granularities,
+and trains the model such that the prediction confidence linearly decays as the
+input transitions from ID to OOD. Extensive experiments and analyses
+demonstrate the effectiveness of MixOE for building up OOD detector in
+fine-grained environments. The code is available at
+https://github.com/zjysteven/MixOE. },
+  pdf={https://openaccess.thecvf.com/content/WACV2023/papers/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.pdf},
+  url={https://openaccess.thecvf.com/content/WACV2023/html/Zhang_Mixture_Outlier_Exposure_Towards_Out-of-Distribution_Detection_in_Fine-Grained_Environments_WACV_2023_paper.html}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@misc{zhang2023sio,
+      title={SIO: Synthetic In-Distribution Data Benefits Out-of-Distribution Detection},
+      author={Jingyang Zhang and Nathan Inkawhich and Randolph Linderman and Ryan Luley and Yiran Chen and Hai Li},
+      year={2023},
+      eprint={2303.14531},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url = {https://arxiv.org/abs/2303.14531},
+      pdf = {https://arxiv.org/pdf/2303.14531.pdf},
+      abstract ={
+Building up reliable Out-of-Distribution (OOD) detectors is challenging, often
+requiring the use of OOD data during training. In this work, we develop a
+data-driven approach which is distinct and complementary to existing works:
+Instead of using external OOD data, we fully exploit the internal
+in-distribution (ID) training set by utilizing generative models to produce
+additional synthetic ID images. The classifier is then trained using a novel
+objective that computes weighted loss on real and synthetic ID samples
+together. Our training framework, which is termed SIO, serves as a
+"plug-and-play" technique that is designed to be compatible with existing and
+future OOD detection algorithms, including the ones that leverage available OOD
+training data. Our experiments on CIFAR-10, CIFAR-100, and ImageNet variants
+demonstrate that SIO consistently improves the performance of nearly all
+state-of-the-art (SOTA) OOD detection algorithms. For instance, on the
+challenging CIFAR-10 v.s. CIFAR-100 detection problem, SIO improves the average
+OOD detection AUROC of 18 existing methods from 86.25\% to 89.04\% and achieves
+a new SOTA of 92.94\% according to the OpenOOD benchmark. Code is available.
+    }
 }
