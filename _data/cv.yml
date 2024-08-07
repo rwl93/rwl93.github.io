@@ -43,6 +43,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: R&D Intern on the Computer Vision Team
+      institution: Kitware Inc.
+        Carrboro, NC
+      year: May 2024 - August 2024
+      description:
+        - "Advisors: Brian Clipp, Ph.D. and Daniel Davila"
     - title: Associate Computer Engineer, DR-01
       institution: Air Force Research Laboratory, Information Directorate,
         Rome, NY
