@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a 4<sup>th</sup> year PhD Candidate in the CEI Lab in the ECE program at
+I am a 5<sup>th</sup> year PhD Candidate in the CEI Lab in the ECE program at
 Duke University advised by Prof. Yiran Chen. My research aims to improve the
 robustness of deep learning models by leveraging hierarchical class
 relationships. My current focus is on advancing open-set / out-of-distribution

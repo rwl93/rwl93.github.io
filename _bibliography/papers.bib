@@ -5,6 +5,7 @@
 @string{neurips = {Conference on Neural Information Processing Systems,}}
 
 @InProceedings{pmlr-v232-linderman23a,
+  abbr = {CoLLAs},
   title = 	 {Fine-grain Inference on Out-of-Distribution Data with Hierarchical Classification},
   author =       {Linderman, Randolph and Zhang, Jingyang and Inkawhich, Nathan and Li, Hai and Chen, Yiran},
   booktitle = 	 {Proceedings of The 2nd Conference on Lifelong Learning Agents},
@@ -43,6 +44,7 @@
 }
 
 @InProceedings{Zhang_2023_WACV,
+    abbr = {WACV},
     author    = {Zhang, Jingyang and Inkawhich, Nathan and Linderman, Randolph and Chen, Yiran and Li, Hai},
     title     = {Mixture Outlier Exposure: Towards Out-of-Distribution Detection in Fine-Grained Environments},
     booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
@@ -76,6 +78,7 @@ https://github.com/zjysteven/MixOE. },
 }
 
 @misc{zhang2023sio,
+      abbr = {arXiv},
       title={SIO: Synthetic In-Distribution Data Benefits Out-of-Distribution Detection},
       author={Jingyang Zhang and Nathan Inkawhich and Randolph Linderman and Ryan Luley and Yiran Chen and Hai Li},
       year={2023},
@@ -105,10 +108,23 @@ a new SOTA of 92.94\% according to the OpenOOD benchmark. Code is available.
   google_scholar_id={d1gkVwhDpl0C}
 }
 
-@article{inkawhich2024osr,
-  title={OSR-ViT: A Simple and Modular Framework for Open-Set Object Detection and Discovery},
-  author={Inkawhich, Matthew and Inkawhich, Nathan and Yang, Hao and Zhang, Jingyang and Linderman, Randolph and Chen, Yiran},
-  journal={arXiv preprint arXiv:2404.10865},
-  year={2024},
-  google_scholar_id={9yKSN-GCB0IC}
+@INPROCEEDINGS {inkawhich2024osr,
+abbr = {BigData},
+author = { Inkawhich, Matthew and Inkawhich, Nathan and Yang, Hao and Zhang, Jingyang and Linderman, Randolph and Chen, Yiran },
+booktitle = { 2024 IEEE International Conference on Big Data (BigData) },
+title = {{ OSR-ViT: A Simple and Modular Framework for Open-Set Object Detection and Discovery }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {928-937},
+abstract = { An object detector’s ability to detect and flag novel objects during open-world deployments is critical for many real-world applications. Unfortunately, much of the work in open object detection today is disjointed and fails to adequately address applications that prioritize unknown object recall in addition to known-class accuracy. To close this gap, we present a new task called Open-Set Object Detection and Discovery (OSODD) and as a solution propose the Open-Set Regions with ViT features (OSR-ViT) detection framework. OSR-ViT combines a class-agnostic proposal network with a powerful ViT-based classifier. Its modular design simplifies optimization and allows users to easily swap proposal solutions and feature extractors to best suit their application. Using our multifaceted evaluation protocol, we show that OSR-ViT obtains performance levels that far exceed state-of-the-art supervised methods. Our method also excels in low-data settings, outperforming supervised baselines using a fraction of the training data. },
+keywords = {Protocols;Computational modeling;Training data;Object detection;Feature extraction;Data models;Safety;Proposals;Object recognition;Optimization},
+doi = {10.1109/BigData62323.2024.10826036},
+url = {https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10826036},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Dec,
+google_scholar_id={9yKSN-GCB0IC}
 }
+
+
