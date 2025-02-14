@@ -2,6 +2,7 @@ github_users:
   - rwl93
 
 github_repos:
+  - rwl93/bnp4ood
   - rwl93/hierarchical-ood
   - rwl93/dcoverage
   - rwl93/ece651-nvim-config
